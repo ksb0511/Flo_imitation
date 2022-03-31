@@ -1,4 +1,4 @@
-package com.ksb.myapplication
+package com.ksb.myapplication.Model
 
 data class TodayData (
     val name : String,

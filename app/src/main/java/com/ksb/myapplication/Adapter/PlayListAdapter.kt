@@ -1,4 +1,4 @@
-package com.ksb.myapplication
+package com.ksb.myapplication.Adapter
 
 import android.graphics.Color
 import android.view.LayoutInflater
@@ -10,6 +10,8 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.ksb.myapplication.Model.MusicModel
+import com.ksb.myapplication.R
 
 class PlayListAdapter(private val callback: (MusicModel) -> Unit) : ListAdapter<MusicModel, PlayListAdapter.ViewHolder>(diffUtil) {
 

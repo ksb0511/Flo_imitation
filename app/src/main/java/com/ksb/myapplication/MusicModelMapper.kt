@@ -1,5 +1,8 @@
 package com.ksb.myapplication
 
+import com.ksb.myapplication.Model.MusicModel
+import com.ksb.myapplication.Model.PlayerModel
+
 
 fun MusicEntity.mapper(id: Long): MusicModel =
     MusicModel(

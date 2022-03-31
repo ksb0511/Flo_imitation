@@ -1,5 +1,7 @@
 package com.ksb.myapplication
 
+import com.ksb.myapplication.Model.TodayData
+
 class TodayDummy {
     fun getRepoList(): List<TodayData> {
         return listOf(

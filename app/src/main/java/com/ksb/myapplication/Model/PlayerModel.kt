@@ -1,9 +1,9 @@
-package com.ksb.myapplication
+package com.ksb.myapplication.Model
 
 data class PlayerModel(
-    private val playMusicList: List<MusicModel> = emptyList(),
-    var currentPosition: Int = -1,
-    var isWatchingPlayListView: Boolean = true
+        private val playMusicList: List<MusicModel> = emptyList(),
+        var currentPosition: Int = -1,
+        var isWatchingPlayListView: Boolean = true
 ) {
 
     fun getAdapterModels(): List<MusicModel> {

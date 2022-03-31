@@ -11,7 +11,9 @@ import com.bumptech.glide.Glide
 import com.google.android.exoplayer2.MediaItem
 import com.google.android.exoplayer2.Player
 import com.google.android.exoplayer2.SimpleExoPlayer
-import com.ksb.myapplication.R
+import com.ksb.myapplication.Adapter.PlayListAdapter
+import com.ksb.myapplication.Model.MusicModel
+import com.ksb.myapplication.Model.PlayerModel
 import com.ksb.myapplication.databinding.FragmentPlayerBinding
 import retrofit2.Call
 import retrofit2.Callback

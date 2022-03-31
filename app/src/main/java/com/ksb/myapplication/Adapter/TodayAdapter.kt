@@ -1,10 +1,13 @@
-package com.ksb.myapplication
+package com.ksb.myapplication.Adapter
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.ksb.myapplication.Model.TodayData
+import com.ksb.myapplication.R
+import com.ksb.myapplication.ViewHolder
 
 
 class TodayAdapter(private val context: View, private val real_con: Context?) : RecyclerView.Adapter<ViewHolder>(){

@@ -1,4 +1,4 @@
-package com.ksb.myapplication
+package com.ksb.myapplication.FragmentPage
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,6 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import com.ksb.myapplication.PlayerFragment
+import com.ksb.myapplication.R
 
 
 // TODO: Rename parameter arguments, choose names that match

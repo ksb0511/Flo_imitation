@@ -1,12 +1,14 @@
-package com.ksb.myapplication
+package com.ksb.myapplication.FragmentPage
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.ksb.myapplication.R
+import com.ksb.myapplication.Adapter.TodayAdapter
+import com.ksb.myapplication.TodayDummy
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER

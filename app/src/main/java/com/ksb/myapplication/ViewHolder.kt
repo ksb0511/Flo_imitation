@@ -5,6 +5,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.ksb.myapplication.Model.TodayData
 
 class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
 
