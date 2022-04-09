@@ -23,7 +23,6 @@ import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
 class PlayerFragment : Fragment(R.layout.fragment_player) {
-
     private var model: PlayerModel = PlayerModel()
     private var binding: FragmentPlayerBinding? = null
     private var player: SimpleExoPlayer? = null
